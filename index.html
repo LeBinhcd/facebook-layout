@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="logo" href="#">facebook</a>
+        <input class="search" type="search" placeholder="Search Facebook" aria-label="Search Facebook">
+        <nav class="top-nav" aria-label="User navigation">
+            <a href="#">Home</a>
+            <a href="#">Friends</a>
+            <a href="#">Messages</a>
+            <a href="#">Profile</a>
+        </nav>
+    </header>
+
+    <div class="page-layout">
+        <aside class="sidebar left-sidebar">
+            <h2>Shortcuts</h2>
+            <a href="#">News Feed</a>
+            <a href="#">Messenger</a>
+            <a href="#">Groups</a>
+            <a href="#">Saved</a>
+            <a href="#">Events</a>
+        </aside>
+
+        <main class="main-content">
+            <section class="composer">
+                <h1>Create Post</h1>
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button type="button">Post</button>
+            </section>
+
+            <article class="post">
+                <div class="post-author"><span class="avatar">A</span><strong>Alex Johnson</strong></div>
+                <p>Welcome to my simplified Facebook layout!</p>
+                <div class="post-image blue-card">Have a great day!</div>
+                <div class="post-actions"><button type="button">Like</button><button type="button">Comment</button><button type="button">Share</button></div>
+            </article>
+
+            <article class="post">
+                <div class="post-author"><span class="avatar green">M</span><strong>Maria Smith</strong></div>
+                <p>Learning HTML and CSS is fun.</p>
+                <div class="post-actions"><button type="button">Like</button><button type="button">Comment</button><button type="button">Share</button></div>
+            </article>
+        </main>
+
+        <aside class="sidebar right-sidebar">
+            <h2>Contacts</h2>
+            <a href="#"><span class="status"></span>Alex Johnson</a>
+            <a href="#"><span class="status"></span>Maria Smith</a>
+            <a href="#"><span class="status"></span>David Brown</a>
+            <a href="#"><span class="status offline"></span>Linda Wilson</a>
+        </aside>
+    </div>
+</body>
+</html>
